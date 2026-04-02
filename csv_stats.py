@@ -20,7 +20,7 @@ def get_csv_summary(filepath: str, population_std: bool = False) -> Dict[str, Di
         the column.
 
         * ``False`` (default): **sample** standard deviation — variance uses
-          divisor *N* − 1 (Bessel's correction). Use when the rows are a
+          divisor *N* - 1 (Bessel's correction). Use when the rows are a
           sample and you want an unbiased estimate of population spread.
         * ``True``: **population** standard deviation — variance uses divisor
           *N*. Use when the rows are the full population (or you explicitly
