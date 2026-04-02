@@ -1,0 +1,11 @@
+product,category,units_sold,unit_price,revenue,discount_pct
+Laptop Pro,Electronics,45,1299.99,58499.55,5.0
+Wireless Mouse,Electronics,312,29.99,9356.88,0.0
+Standing Desk,Furniture,28,599.00,16772.00,10.0
+Monitor 27in,Electronics,95,449.99,42749.05,7.5
+Ergonomic Chair,Furniture,67,349.00,23383.00,0.0
+USB-C Hub,Electronics,445,49.99,22245.55,0.0
+Bookshelf,Furniture,23,189.00,4347.00,15.0
+Webcam HD,Electronics,178,79.99,14238.22,5.0
+Keyboard Mech,Electronics,201,149.99,30147.99,0.0
+Desk Lamp,Furniture,89,59.99,5339.11,0.0
