@@ -16,7 +16,7 @@ def multiply(a: float, b: float) -> float:
 def divide(a: float, b: float) -> float:
     """Return the quotient of a and b."""
     if b == 0:
-        raise ValueError("division by zero")
+        raise ValueError("Division by zero is not allowed.")
     return a / b
 
 def calculate(op: str, x: float, y: float) -> float:
@@ -29,6 +29,8 @@ def calculate(op: str, x: float, y: float) -> float:
         return multiply(x, y)
     elif op == "divide":
         return divide(x, y)
+    else:
+    raise ValueError(f"Unsupported operation: {op}")
 
 def main() -> None:
     """Demonstrate each calculator operation."""

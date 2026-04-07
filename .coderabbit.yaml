@@ -1,0 +1,8 @@
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+  request_changes_workflow: false
+
+language: "en-US"
+tone_instructions: "Be educational and beginner-friendly. Explain why each issue matters."
