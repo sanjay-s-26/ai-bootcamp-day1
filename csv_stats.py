@@ -5,7 +5,7 @@ import math
 import os
 from typing import Dict
 
-
+# demio purpose
 def get_csv_summary(filepath: str, population_std: bool = False) -> Dict[str, Dict[str, float]]:
     """
     Read a CSV file and return summary statistics for all numeric columns.
